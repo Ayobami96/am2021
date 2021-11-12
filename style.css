@@ -1,0 +1,664 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navs */
+
+#wedding-navs {
+    background-color: #fff;
+    padding: 0 12%;
+}
+
+.navbar-brand {
+    color: #18554D;
+    font-family: 'Montez', cursive;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: #18554D;
+}
+
+.navbar-toggler {
+    border-color: #18554D;
+}
+
+.nav-item {
+    padding: 0 12px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #18554D;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #CEB08D;
+}
+
+.rsvp {
+    padding: 6px 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #18554D;
+    border-radius: 0;
+    border: 1px solid #18554D;
+}
+
+.rsvp:hover {
+    background-color: #18554D;
+    color: #CEB08D;
+}
+
+/* Hero Banner */
+
+#hero-banner {
+    padding: 5% 12%;
+    text-align: center;
+    background: radial-gradient(rgba(0,0,0,0.5), #18554D),url(images/bidduro.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+}
+
+.hero-content {
+    align-items: center;
+    padding: 12% 0;
+}
+
+.first-text {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.second-text {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.big-header {
+    font-size: 64px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+/* Gift Ideas */
+
+#gift-ideas {
+    padding: 6% 0 10%;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.gift-column {
+    padding: 3% 2%;
+    border-radius: 9px;
+    background-color: #fff;
+    align-items: center;
+    position: absolute;
+    top: -88px;
+    margin: 0 20%;   
+}
+
+.gift-registry {
+    font-size: 18px;
+    font-weight: 600;
+    color: #CEB08D;
+    text-align: left;
+}
+
+.registry-header {
+    font-size: 30px;
+    color: #18554D;
+    text-align: left;
+}
+
+.gift {
+    background-color: #CEB08D;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #18554D;
+    border-radius: 0;
+    border: 1px solid #CEB08D;
+}
+
+.gift:hover {
+    background-color: #18554D;
+    color: #CEB08D;
+}
+
+
+/* Our Story */
+
+#our-story {
+    padding: 7% 12%;
+    background-color: #FBF7F3;
+    text-align: center;
+    position: relative;
+}
+
+.our-story-bg {
+    position: absolute;
+    background-image: url(images/nane22.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60% auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+.love-story {
+    padding: 0 130px;
+}
+
+.story {
+    font-size: 18px;
+    font-weight: 500;
+    color: #18554D;
+}
+
+.love-header {
+    font-size: 42px;
+    color: #18554D;
+}
+
+.love-text {
+    font-size: 14px;
+    color: #555;
+    font-weight: normal;
+}
+
+/* Gallery */
+
+#photos {
+    padding: 7% 12%;
+    background-color: white;
+    text-align: center;
+}
+
+.gallery {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 230px;
+    padding: 20px 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.gallery-button {
+    border-radius: 0;
+    border: 1px solid #18554D; 
+    color: #18554D;
+}
+
+.gallery-button:hover {
+    background-color: #18554D;
+    color: #CEB08D;
+}
+
+
+/* Countdown */
+
+#countdown-box {
+    padding: 5% 12%;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(rgba(0,0,0,0.5), #CEB08D),url(images/wedding-rings.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    color: #fff;
+}
+
+
+.coundown-cover {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#headline {
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+
+.counts {
+    display: inline-block;
+    background-color: #18554D; 
+    font-size: 1.5em;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px 30px 20px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+}
+
+.counts span {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 700; 
+}
+
+/* Love Quote */
+
+#love-quote {
+    padding: 5% 12%;
+    background-color: #fff;
+    align-items: center;
+}
+
+.love-row {
+    align-items: center;
+}
+
+.love-area {
+    padding: 15px 30px;
+}
+
+.main-quote {
+    font-size: 24px;
+    color: #CEB08D;
+}
+
+
+/* Location */
+
+#location {
+    text-align: center;
+}
+
+.location-box {
+    text-align: center;
+}
+
+.location-wrap {
+    padding: 0 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.location-wrap h5 {
+    font-size: 20px;
+    color: #18554D;
+    text-align: left;
+    padding: 0 60px;
+}
+
+.location-row {
+    align-items: center;
+}
+
+.location-desc {
+    display: flex;
+    padding: 0 50px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.location-icon .fas {
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18554D;
+}
+
+.location-text p{
+    padding: 0 16px;
+    text-align: initial;
+    color: #18554D;
+    font-weight: 600;
+}
+
+.location-map {
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.location-map:hover {
+    filter: grayscale(0);
+}
+
+
+
+.second-row {
+    padding: 50px 0 0;
+}
+
+/* RSVP */
+
+#rsvp {
+    padding: 5% 12% 7%;
+    text-align: center;
+    background-image: url(images/formbg.png);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    color: #fff;
+}
+
+.rsvp-row {
+    align-items: center;
+}
+
+.rsvp-form {
+    background-color: white;
+    height: 370px;
+    border-radius: 13px;
+}
+
+.rsvp-col h1 {
+    font-size: 94px;
+    color: #18554D;
+}
+
+.rsvp-col input {
+    background-color: transparent;
+    border-color: teal;
+}
+
+.rsvp-col input:hover {
+    background-color: transparent;
+    color: teal;
+}
+
+
+.rsvp-col textarea {
+    background-color: transparent;
+    border-color: teal;
+}
+
+.rsvp-col textarea:hover {
+    background-color: transparent;
+    color: teal;
+}
+
+.form-invite {
+    padding: 5px 20px;
+}
+
+.rsvp-btn {
+    width: 100%; 
+    background-color: #18554D;
+    border-color: #18554D;
+    color: wheat;
+    font-weight: 600;
+}
+
+.rsvp-btn:hover {
+    background-color: wheat;
+    color: teal;
+    border-color: wheat;
+}
+
+
+/* More info */
+
+#more-info {
+    padding: 5% 10%;
+    text-align: center;
+    align-items: center;
+    color: #18554D;
+}
+
+.info-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info-col {
+    padding: 2% 3%;
+}
+
+#footer {
+    display: flex;
+    padding: 3% 10%;
+}
+.footer-header {
+    color: #18554D;
+    font-family: 'Montez', cursive;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.footer-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 216px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 5px 5px;
+    color: #18554D;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 10px;
+}
+
+.footer-icon:hover {
+    color: #CEB08D;
+    transform: translateY(-7px);
+}
+
+
+/* Gallery Page */
+
+#gallery-banner {
+    padding: 5% 0;
+    text-align: center;
+    background: radial-gradient(rgba(0,0,0,0.5), #18554D), url(images/durogal.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+
+.photo-gallery {
+    width: 70%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px
+}
+
+.photo-gallery img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+}
+ 
+.photo-gallery img:hover {
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;  
+    box-shadow: 0 32px 75px rgba(68,77,136,0.2);
+}
+
+
+
+/* Responsiveness */
+
+@media (max-width: 1024px) {
+
+    /* Nav */
+
+    #wedding-navs {
+        padding: 0 20px;
+    }
+
+    /* Gift ideas */
+
+    .gift-column {
+        margin: 0 20px;
+    }
+
+    .registry-header {
+        font-size: 24px;
+    }
+
+    /* Our story */
+    #our-story {
+        padding: 50px 40px;
+    }
+
+    .love-story {
+        padding: 0 40px;
+    }
+
+    #love-quote {
+        padding: 50px 10px;
+    }
+
+    .main-quote {
+        font-size: 16px;
+    }
+
+    /* Gallery */
+
+    #photos {
+        padding: 50px 20px;
+    }
+
+    .gallery {
+        max-width: 500px;
+    }
+
+    .love-header {
+        font-size: 28px;
+    }
+
+    /* Countdown */
+
+    #countdown-box {
+        padding: 80px 20px;
+    }
+
+    .counts {
+        font-size: 18px;
+    }
+    
+    .counts span {
+        font-size: 36px;
+        font-weight: 700; 
+    }
+
+    /* Location */ 
+    .location-text p {
+        font-size: 13px;
+    }
+
+    /* RSVP */
+
+    #rsvp {
+        padding: 50px 30px;
+    }
+
+    .rsvp-col h1 {
+        font-size: 54px;
+    }
+
+    #gallery-banner {
+        background-position-x: 70%;
+        background-position-y: 50%;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+     /* Nav */
+
+     #wedding-navs {
+        padding: 0 10px;
+    }
+
+    /* Hero anner */
+
+    #hero-banner, #gallery-banner {
+        padding: 130px 20px;
+    }
+
+    .big-header {
+        font-size: 54px;
+    }
+
+    /* Gift Ideas */
+
+    #gift-ideas {
+        padding: 90px 0;
+    }
+
+    /* Our story */
+    #our-story {
+        padding: 50px 0;
+    }
+
+    .love-story {
+        padding: 0 20px;
+    }
+    
+    .gift-registry, .registry-header {
+        text-align: center;
+    }
+
+    .counts {
+        display: block;
+    }
+
+    .location-box, .location-wrap h5, .location-desc {
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    #footer {
+        padding: 40px 15px;
+    }
+
+    .footer-header {
+        font-size: 32px;
+    }
+
+    .footer-icon {
+        margin: 0;
+    }
+    
+}
