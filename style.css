@@ -524,6 +524,11 @@ h1,h2,h3,h4,h5,h6 {
     #wedding-navs {
         padding: 0 20px;
     }
+    
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
 
     /* Gift ideas */
 
