@@ -620,6 +620,11 @@ h1,h2,h3,h4,h5,h6 {
 
     #hero-banner, #gallery-banner {
         padding: 130px 20px;
+        background-attachment: none;
+    }
+    
+    #countdown-box {
+        background-attachment: none;
     }
 
     .big-header {
