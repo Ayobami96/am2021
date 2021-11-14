@@ -129,12 +129,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .gift {
-    background-color: #CEB08D;
+    background-color: #CEB08D !important;
     font-size: 1rem;
     font-weight: 600;
     color: #18554D;
     border-radius: 0;
-    border: 1px solid #CEB08D;
+    border: 1px solid #CEB08D !important;
 }
 
 .gift:hover {
@@ -212,7 +212,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .gallery-button {
-    border-radius: 0;
+    border-radius: 0 !important;
     border: 1px solid #18554D; 
     color: #18554D;
 }
